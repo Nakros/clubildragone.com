@@ -1,0 +1,25 @@
+body , ul {
+    margin:0;
+}
+
+body {
+    background-color:black;
+    color:white;
+}
+#foot {
+    color:blue;
+    text-align:center;
+    font-size:30px;
+}
+a {
+    color:white;
+    text-decoration:none;
+}
+#links {
+    width:20px;
+}
+ul {
+    list-style-image: url(images/shuriken.jpg);
+    line-height:30px;
+}
+    
