@@ -19,7 +19,7 @@ a {
     width:20px;
 }
 ul {
-    list-style-image: url(images/shuriken.jpg);
+    list-style: url(images/shuriken.jpg);
     line-height:30px;
 }
     
