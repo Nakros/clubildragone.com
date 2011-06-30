@@ -1,25 +1,75 @@
-body , ul {
-    margin:0;
-}
-
 body {
-    background-color:black;
-    color:white;
+    background-image: url('images/bg.jpg') bottom right relative 0 10px 10px 0 no-repeat;
+    background-color:#121212;
+    color:#ccc;
 }
 #foot {
     color:blue;
-    text-align:center;
+    text-align:left;
     font-size:30px;
+    position:relative;
+    margin-top:60px;
+    margin-left: 70px;
+    width:500px;
 }
 a {
-    color:white;
+    color:#8B0000;
+    font-size:20px;
     text-decoration:none;
 }
-#links {
-    width:20px;
+ul a {
+   color: white;
+   text-decoration: none;
 }
 ul {
-    list-style: url(images/shuriken.jpg);
+    width:220px;
+    list-style: url(images/shuriken.jpg) outside;
+    line-height:35px;
+    margin-left:40px;
+    margin-right:20px;
+    font-family: Helvetica, sans-serif;
+    position:absolute;
+    top:115px;
+    left:0;
+    right:0;
+    bottom:0;
+}
+a:hover {
+   text-decoration: underline;
+}
+li {
+    width:150px;
+}
+p {
+    width:150px;
+    font-size:20px;
     line-height:30px;
 }
-    
+
+h1 {
+    text-align:center;
+    color:white;
+    font-size:80px;
+    margin-top:10px;
+}
+#gruppo {
+    position:relative;
+    left:270px;
+    bottom:20px;
+}
+.home {
+    width:400px;
+    margin-top:30px;
+    margin-left:70px;
+}
+#contatti {
+    border:solid 1px #8B0000;
+    margin:0;
+    width:370px;
+    text-align:left;
+    padding-left:10px;
+    position:absolute;
+    left:550px;
+    top:430px;
+}
+
