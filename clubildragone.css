@@ -8,7 +8,7 @@ body {
     text-align:center;
     font-size:30px;
     position:relative;
-    margin-top:130px;
+    margin-top:230px;
     margin-left:250px;
     width:500px;
 }
@@ -17,20 +17,20 @@ a {
     font-size:20px;
     text-decoration:none;
 }
-ul a {
+menu a {
    color: white;
    text-decoration: none;
 }
-ul {
-    width:220px;
+menu {
+    width:500px;
     list-style: url(images/shuriken.jpg) outside;
-    line-height:35px;
-    margin-left:40px;
-    margin-right:20px;
+    height:10px;
+    padding-left:10px;
+    margin-right:0;
     font-family: Helvetica, sans-serif;
     position:absolute;
     top:115px;
-    left:0;
+    left:430px;
     right:0;
     bottom:0;
 }
@@ -38,7 +38,7 @@ a:hover {
    text-decoration: underline;
 }
 li {
-    width:150px;
+    display:inline;    
 }
 p {
     width:150px;
@@ -54,24 +54,32 @@ h1 {
 }
 #gruppo {
     position:relative;
-    left:270px;
-    bottom:20px;
+    top:20px;
+    left:180px;
 }
 .home {
-    width:400px;
-    margin-top:40px;
-    margin-left:70px;
+    width:500px;
+    margin-top:30px;
+    margin-bottom:0;
 }
+    
 #contatti {
     border:solid 1px #8B0000;
     margin:0;
-    width:370px;
+    width:350px;
     text-align:left;
-    padding-left:10px;
     position:absolute;
     left:550px;
-    top:430px;
+    top:350px;
+    padding:10px;
+}
+.line {
+    display:inline;
 }
 h2 {
     text-align:center;
+}
+
+#maincontainer {
+    width:1000px;
 }
