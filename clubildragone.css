@@ -11,6 +11,7 @@ body {
     margin-top:230px;
     margin-left:250px;
     width:500px;
+    background: url('images/shuriken.jpg') no-repeat center;
 }
 a {
     color:#8B0000;
@@ -52,10 +53,20 @@ h1 {
     font-size:80px;
     margin-top:10px;
 }
+#gruppol {
+    position:relative;
+    left:85px;
+    top:12px;
+}
+#gruppor {
+    position:relative;
+    left:75px;
+    top:12px;
+}
 #gruppo {
     position:relative;
-    top:20px;
-    left:180px;
+    top:13px;
+    left:80px;
 }
 .home {
     width:500px;
