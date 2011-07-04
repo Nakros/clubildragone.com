@@ -7,8 +7,7 @@ body {
     color:blue;
     text-align:center;
     font-size:30px;
-    position:relative;
-    margin-top:230px;
+    margin-top:100px;
     margin-left:250px;
     width:500px;
     background: url('images/shuriken.jpg') no-repeat center;
@@ -79,9 +78,9 @@ h1 {
     margin:0;
     width:350px;
     text-align:left;
-    position:absolute;
+    position:relative;
     left:550px;
-    top:350px;
+    bottom:350px;
     padding:10px;
 }
 .line {
@@ -93,4 +92,14 @@ h2 {
 
 #maincontainer {
     width:1000px;
+    height:500px;
+}
+table {
+    position:relative;
+    left:60px;
+}
+td {
+    text-align:center;
+    border:solid 1px #ccc;
+    padding:10px;
 }
