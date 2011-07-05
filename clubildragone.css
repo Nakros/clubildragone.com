@@ -1,16 +1,16 @@
 body {
-    background-image: url('images/bg.jpg') bottom right relative 0 10px 10px 0 no-repeat;
     background-color:#121212;
     color:#ccc;
 }
 #foot {
-    color:blue;
+    color:white;
     text-align:center;
     font-size:30px;
-    margin-top:100px;
-    margin-left:250px;
+    margin:500px auto;
     width:500px;
-    background: url('images/shuriken.jpg') no-repeat center;
+    background: url('images/shuriken.jpg') #8B0000 no-repeat center;
+    border-radius: 5px;
+
 }
 a {
     color:#8B0000;
@@ -23,25 +23,22 @@ menu a {
 }
 menu {
     width:500px;
-    list-style: url(images/shuriken.jpg) outside;
-    height:10px;
+    height:30px;
     padding-left:10px;
     margin-right:0;
     font-family: Helvetica, sans-serif;
-    position:absolute;
-    top:115px;
-    left:430px;
-    right:0;
-    bottom:0;
+    float:right;
+    background-color:#8B0000;
+    border-radius: 5px;
+    margin-right:80px;
 }
-a:hover {
+a,#notabene: hover {
    text-decoration: underline;
 }
 li {
     display:inline;    
 }
 p {
-    width:150px;
     font-size:20px;
     line-height:30px;
 }
@@ -49,57 +46,68 @@ p {
 h1 {
     text-align:center;
     color:white;
-    font-size:80px;
+    font-size:78px;
     margin-top:10px;
 }
 #gruppol {
-    position:relative;
-    left:85px;
-    top:12px;
+    float:left;
+    display:block;
 }
 #gruppor {
-    position:relative;
-    left:75px;
-    top:12px;
+    float:left;
+    display:block;
 }
 #gruppo {
-    position:relative;
-    top:13px;
-    left:80px;
-}
-.home {
-    width:500px;
-    margin-top:30px;
-    margin-bottom:0;
+    float:left;
+    display:block;
 }
     
-#contatti {
-    border:solid 1px #8B0000;
-    margin:0;
-    width:350px;
-    text-align:left;
-    position:relative;
-    left:550px;
-    bottom:350px;
-    padding:10px;
-}
-.line {
-    display:inline;
+.foto-principale-home {
+    overflow: auto;
+    margin: 0 auto;
+    width: 836px;
 }
 h2 {
-    text-align:center;
+    margin: 0 auto;
 }
-
+h2.centrati {
+    margin: 10px auto;
+    width: 200px;
+}    
 #maincontainer {
     width:1000px;
     height:500px;
 }
-table {
-    position:relative;
-    left:60px;
+.table {
+    margin: 5px auto;
 }
 td {
     text-align:center;
     border:solid 1px #ccc;
     padding:10px;
+}
+article {
+    display: block;
+    background:#121212;
+    overflow: auto;
+    width:835px;
+    margin:20px auto 0;
+}
+.testo-home {
+    float: left;
+    width:450px;
+    margin-bottom:0;
+    background:#121212;
+}
+
+#contatti {
+    border:solid 1px #8B0000;
+    width:350px;
+    text-align:left;
+    float:right;
+    padding:10px;
+    background:#121212;
+}
+#notabene {
+    color:#8B0000;
 }
