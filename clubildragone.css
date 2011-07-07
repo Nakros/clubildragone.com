@@ -84,7 +84,6 @@ h2.centrati {
 table {
     margin: 0 auto;
     padding: 0;
-    
 }
 td {
     text-align:center;
@@ -95,6 +94,10 @@ td {
 .tabellarossa {
     background-color:#8B0000;
     color:white;
+    border:solid 5px #8B0000;
+}
+.txtleft {
+    text-align: left;
 }
 article {
     display: block;
