@@ -2,6 +2,9 @@ body {
     background-color:#121212;
     color:#ccc;
 }
+header {
+    margin-bottom: 150px;
+}
 #foot {
     color:white;
     text-align:center;
@@ -78,13 +81,20 @@ h2.centrati {
     width:1000px;
     height:500px;
 }
-.table {
-    margin: 5px auto;
+table {
+    margin: 0 auto;
+    padding: 0;
+    
 }
 td {
     text-align:center;
     border:solid 1px #ccc;
     padding:10px;
+    margin: 0;
+}
+.tabellarossa {
+    background-color:#8B0000;
+    color:white;
 }
 article {
     display: block;
