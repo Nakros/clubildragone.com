@@ -21,21 +21,21 @@ a {
     text-decoration:none;
 }
 menu a {
-   color: white;
-   text-decoration: none;
+    color: white;
+    text-decoration: none;
+    text-align:center;
 }
 menu {
     width:500px;
     height:30px;
-    padding-left:10px;
-    margin-right:0;
+    padding:5px;
     font-family: Helvetica, sans-serif;
     float:right;
     background-color:#8B0000;
     border-radius: 5px;
     margin-right:80px;
 }
-a,#notabene: hover {
+a:hover {
    text-decoration: underline;
 }
 li {
@@ -51,14 +51,6 @@ h1 {
     color:white;
     font-size:78px;
     margin-top:10px;
-}
-#gruppol {
-    float:left;
-    display:block;
-}
-#gruppor {
-    float:left;
-    display:block;
 }
 #gruppo {
     float:left;
