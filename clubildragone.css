@@ -21,6 +21,12 @@ a {
     font-size:20px;
     text-decoration:none;
 }
+.floatr {
+    float:right;
+}
+.floatl {
+    float:left;
+}
 menu a {
     color: white;
     text-decoration: none;
@@ -62,6 +68,7 @@ a:hover {
 }
 .shourioken {
     list-style-image: url(images/shuriken.jpg);
+    background: url(images/libg.jpg);
 }
 .li {
     display:inline;    
@@ -94,7 +101,7 @@ h2 {
 h2.centrati {
     margin: 10px auto;
     width: 200px;
-}    
+}
 #maincontainer {
     width:1000px;
     height:500px;
@@ -167,4 +174,15 @@ article {
 }
 #notabene {
     color:#8B0000;
+}
+#foto , #video {
+    margin-bottom: 30px;
+}
+#foto {
+    margin-left: 270px;
+    float:left;
+}
+#video {
+    margin-right: 270px;
+    float:right;
 }
