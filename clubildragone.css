@@ -103,11 +103,34 @@ td {
     padding:10px;
     margin: 0;
 }
+
 .tabellarossa {
     background-color:#8B0000;
     color:white;
     border:solid 5px #8B0000;
 }
+
+.tabellarossat {
+    background-color:#8B0000;
+    color:white;
+    border:solid 5px #8B0000;
+    border-radius:5px 5px 0 0 ;
+}
+
+.tabellarossabl {
+    background-color:#8B0000;
+    color:white;
+    border:solid 5px #8B0000;
+    border-radius: 0 0 0 5px ;
+}
+
+.tabellarossabr {
+    background-color:#8B0000;
+    color:white;
+    border:solid 5px #8B0000;
+    border-radius: 0 0 5px 0 ;
+}
+
 .txtleft {
     text-align: left;
 }
@@ -129,9 +152,10 @@ article {
     width:350px;
     height:350px;
     text-align:left;
-    float:right;
-    padding:20px 10px;
+    float: right;
+    padding: 10px;
     background:#121212;
+    line-height:70px;
 }
 #notabene {
     color:#8B0000;
