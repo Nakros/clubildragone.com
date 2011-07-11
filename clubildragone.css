@@ -96,6 +96,8 @@ h2.centrati {
 table {
     margin: 0 auto;
     padding: 0;
+    padding-bottom:10px;
+    width: 670px;
 }
 td {
     text-align:center;
