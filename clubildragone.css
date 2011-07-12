@@ -33,7 +33,7 @@ menu a {
     text-align:center;
 }
 menu {
-    width:500px;
+    width:420px;
     height:30px;
     padding:5px;
     font-family: Helvetica, sans-serif;
@@ -101,6 +101,9 @@ h2 {
 h2.centrati {
     margin: 10px auto;
     width: 200px;
+}
+h3 {
+    margin:0 auto 0 40px;
 }
 #maincontainer {
     width:1000px;
@@ -173,16 +176,20 @@ article {
     line-height:70px;
 }
 #notabene {
-    color:#8B0000;
+    color: #8B0000;
 }
-#foto , #video {
+#foto , #video , #linews {
     margin-bottom: 30px;
 }
 #foto {
     margin-left: 270px;
-    float:left;
+    float: left;
 }
 #video {
     margin-right: 270px;
-    float:right;
+    float: right;
+}
+#linews {
+    margin: 0 auto;
+    width: 240px;
 }
