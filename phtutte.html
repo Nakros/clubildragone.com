@@ -1,15 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<!DOCTYPE html>
 <html>
   <head>
-    <meta content="corsi ninjitsu ninja scuola scuole cinese palestra palestre davide piccolo kung fu in sen shu alessandro carlucci taranto reggio emilia" name="keywords">
-    <meta content="Giuseppe Ciracì" name="author">
-    <meta content="it" http-equiv="Content-Language">
+    <meta content="corsi ninjitsu ninja scuola scuole cinese palestra palestre davide piccolo kung fu in sen shu alessandro carlucci taranto reggio emilia" name="keywords"/>
+    <meta content="Giuseppe Ciracì" name="author"/>
+    <meta content="it" http-equiv="Content-Language"/>
     <title>CLUB IL DRAGONE</title>
     <link type="text/css" rel="stylesheet" href="/home/peppe/Scrivania/cssreset.css"/>
     <link type="text/css" rel="stylesheet" href="clubildragone.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="galleria/galleria-1.2.4.min.js"></script>
   </head>
-<body>
-       <div id="maincontainer">
+  <body>
+    <div id="maincontainer">
         <header>
             <h1>CLUB IL DRAGONE</h1>    
             <div>
@@ -24,24 +26,21 @@
             </div>
         </header>
     <div id="foto">
-        <h3>Foto</h3>    
-            <ul>
-                <li class="shourioken-bg"><a href="phtutte.html">Tutte</a></li>
-                <li class="shourioken-bg"><a href="phragazzi.html">Corso Ragazzi</a></li>
-                <li class="shourioken-bg"><a href="phadulti.html">Corso Adulti</a></li>
-                <li class="shourioken-bg"><a href="phesibizioni.html">Esibizioni</a></li>   
-            </ul>
+        <h3>Foto>Tutte</h3>    
+        <div id="gallery">
+            <img src="images/ph01.jpg">
+            <img src="images/ph02.jpg">
+            <img src="images/ph03.jpg">
+        </div>
+        <script>
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+        $("#gallery").galleria({
+        width: 500,
+        height: 500
+    });
+        </script>
     </div>
-    <div id="video">
-        <h3>Video</h3>
-            <ul>
-                <li class="shourioken-bg"><a href="phtutte.html">Tutte</a></li>
-                <li class="shourioken-bg"><a href="phragazzi.html">Corso Ragazzi</a></li>
-                <li class="shourioken-bg"><a href="phadulti.html">Corso Adulti</a></li>
-                <li class="shourioken-bg"><a href="phesibizioni.html">Esibizioni</a></li>   
-            </ul>
-    </div> 
- <footer style="clear:both;">
+        <footer style="clear:both;">
             <div id="shaken">                    
                     <img id="ftl" src="images/shuriken.jpg"/>
                     <img id="ftr" src="images/shuriken.jpg"/>
