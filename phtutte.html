@@ -7,8 +7,9 @@
     <title>CLUB IL DRAGONE</title>
     <link type="text/css" rel="stylesheet" href="/home/peppe/Scrivania/cssreset.css"/>
     <link type="text/css" rel="stylesheet" href="clubildragone.css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <script src="galleria/galleria-1.2.4.min.js"></script>
+    <script type="text/javascript" src="galleriffic-2.0/js/jquery-1.3.2.js"></script>
+    <script type="text/javascript" src="galleriffic-2.0/js/jquery.galleriffic.js"></script>
+    <script type="text/javascript" src="galleriffic-2.0/js/jquery.opacityrollover.js"></script>
   </head>
   <body>
     <div id="maincontainer">
@@ -25,22 +26,19 @@
                </menu>
             </div>
         </header>
-    <div id="foto">
-        <h3>Foto>Tutte</h3>    
-        <div id="gallery">
-            <img src="images/ph01.jpg">
-            <img src="images/ph02.jpg">
-            <img src="images/ph03.jpg">
-        </div>
-        <script>
-    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-        $("#gallery").galleria({
-        width: 500,
-        height: 500
-    });
-        </script>
-    </div>
-        <footer style="clear:both;">
+    <div id="thumbs">
+    <ul class="thumbs noscript">
+        <li>
+            <a class="thumb" name="optionalCustomIdentifier" href="images/ph00.jpg" title="your image title">
+                <img src="path/to/thumbnail" alt="ph00" />
+            </a>
+            <div class="caption">
+                <img src="images/ph00.jpg"/>
+            </div>
+        </li>
+        ... (repeat for every image in the gallery)
+    </ul>
+</div>        <footer style="clear:both;">
             <div id="shaken">                    
                     <img id="ftl" src="images/shuriken.jpg"/>
                     <img id="ftr" src="images/shuriken.jpg"/>

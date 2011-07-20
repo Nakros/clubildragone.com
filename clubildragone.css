@@ -107,6 +107,10 @@ h2.centrati {
 h3 {
     margin:0 auto 0 40px;
 }
+h3.centrati { 
+    font-size:35px;
+    margin:0 auto 0 430px;
+}
 #maincontainer {
     width:1000px;
     height:500px;
@@ -189,12 +193,12 @@ article {
     margin-bottom: 30px;
 }
 #foto {
-    margin-left: 270px;
+    margin-left: 300px;
     float: left;
 }
 #video {
-    margin-right: 270px;
-    float: right;
+    margin-left: 50px;
+    float: left;
 }
 #linews {
     margin: 0 auto;
