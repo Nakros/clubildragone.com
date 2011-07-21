@@ -118,7 +118,7 @@ h3.centrati {
 table {
     margin: 0 auto;
     padding: 0;
-    padding-bottom:10px;
+    padding-bottom:40px;
     width: 670px;
 }
 td {
@@ -172,19 +172,19 @@ article {
 }
 .testo-home {
     float: left;
-    width:450px;
+    width:400px;
     background:#121212;
 }
 
 #contatti {
     border:solid 1px #8B0000;
     width:350px;
-    height:350px;
+    height:460px;
     text-align:left;
     float: right;
     padding: 10px;
     background:#121212;
-    line-height:70px;
+    line-height: 70px;
 }
 #notabene {
     color: #8B0000;
@@ -201,9 +201,21 @@ article {
     float: left;
 }
 #linews {
-    margin: 0 auto;
-    width: 240px;
+    margin-left: 30px;
+    width: 200px;
+    float: left;
 }
+.premessa {
+    margin: auto auto 60px 10px;
+    float: left;
+    width: 600px;
+    padding: 10px;
+    border: solid #8B0000 1px;
+}
+
+h2.prem {
+    font-size: 35px;
+} 
 
 #video1 , #video2 {
     float: left;
@@ -218,3 +230,4 @@ article {
 #video1 {
     margin-left: 75px;
 }
+
