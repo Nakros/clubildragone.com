@@ -204,6 +204,17 @@ article {
     margin: 0 auto;
     width: 240px;
 }
-.videos {
-    margin-left: 180px;
+
+#video1 , #video2 {
+    float: left;
+    margin-bottom: 30px;
+    width: 320px;
+}
+
+#video2 {
+    margin-left: 130px;
+}
+
+#video1 {
+    margin-left: 75px;
 }
