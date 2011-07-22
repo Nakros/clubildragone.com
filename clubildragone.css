@@ -189,7 +189,7 @@ article {
 #notabene {
     color: #8B0000;
 }
-#foto , #video , #linews {
+#foto , #video , #linews , #licultura {
     margin-bottom: 30px;
 }
 #foto {
@@ -200,10 +200,17 @@ article {
     margin-left: 50px;
     float: left;
 }
-#linews {
-    margin-left: 30px;
+#licultura , #linews {
     width: 200px;
+}
+
+#linews {
+    margin: 0 auto;
+}
+
+#licultura {
     float: left;
+    margin-left: 30px;
 }
 .premessa {
     margin: auto auto 60px 10px;
