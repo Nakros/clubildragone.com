@@ -7,11 +7,16 @@
     <title>CLUB IL DRAGONE</title>
     <link type="text/css" rel="stylesheet" href="/home/peppe/Scrivania/cssreset.css"/>
     <link type="text/css" rel="stylesheet" href="clubildragone.css"/>
-    <script type="text/javascript" src="galleriffic-2.0/js/jquery-1.3.2.js"></script>
-    <script type="text/javascript" src="galleriffic-2.0/js/jquery.galleriffic.js"></script>
-    <script type="text/javascript" src="galleriffic-2.0/js/jquery.opacityrollover.js"></script>
-  </head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="/home/peppe/projects/galleria/galleria-1.2.4.min.js"></script>  
+</head>
   <body>
+    <script>
+        $("body").text("jQuery works");
+    </script>
+    <script>
+        if (Galleria) { $("body").text('Galleria works') }
+    </script>
     <div id="maincontainer">
         <header>
             <h1>CLUB IL DRAGONE</h1>    
@@ -26,18 +31,45 @@
                </menu>
             </div>
         </header>
-    <div id="thumbs">
-    <ul class="thumbs noscript">
-        <li>
-            <a class="thumb" name="optionalCustomIdentifier" href="#lollo" title="your image title">
-                <img src="images/ph01.jpg" alt="ph00" />
-            </a>
-            <div class="caption">
-                <img id="lollo" src="images/ph00.jpg"/>
-            </div>
-        </li>
-    </ul>
-</div>        <footer style="clear:both;">
+        <div style="margin: 20px 0 70px 100px;" id="gallery">
+                <img src="images/ph00.jpg" alt="ph00" />
+                <img src="images/ph01.jpg" alt="ph01" />
+                <img src="images/ph02.jpg" alt="ph02" />
+                <img src="images/ph03.jpg" alt="ph03" />
+                <img src="images/ph04.jpg" alt="ph04" />
+                <img src="images/ph05.jpg" alt="ph05" />
+                <img src="images/ph06.jpg" alt="ph06" />
+                <img src="images/ph07.jpg" alt="ph07" />
+                <img src="images/ph08.jpg" alt="ph08" />
+                <img src="images/ph09.jpg" alt="ph09" />
+                <img src="images/ph10.jpg" alt="ph10" />
+                <img src="images/ph11.jpg" alt="ph11" />
+                <img src="images/ph12.jpg" alt="ph12" />
+                <img src="images/ph13.jpg" alt="ph13" />
+                <img src="images/ph14.jpg" alt="ph14" />
+                <img src="images/ph15.jpg" alt="ph15" />
+                <img src="images/ph16.jpg" alt="ph16" />
+                <img src="images/ph17.jpg" alt="ph17" />
+                <img src="images/ph18.jpg" alt="ph18" />
+                <img src="images/ph19.jpg" alt="ph19" />
+                <img src="images/ph20.jpg" alt="ph20" />
+                <img src="images/ph21.jpg" alt="ph21" />
+                <img src="images/ph22.jpg" alt="ph22" />
+                <img src="images/ph23.jpg" alt="ph23" />
+                <img src="images/ph24.jpg" alt="ph24" />
+                <img src="images/ph25.jpg" alt="ph25" />
+                <img src="images/ph26.jpg" alt="ph26" />
+        </div>
+        <script>
+            Galleria.loadTheme('/home/peppe/projects/galleria/themes/classic/galleria.classic.min.js');
+            $("#gallery").galleria({
+                width: 800,
+                height: 500
+            });
+       </script>
+
+
+        <footer style="clear:both;">
             <div id="shaken">                    
                     <img id="ftl" src="images/shuriken.jpg"/>
                     <img id="ftr" src="images/shuriken.jpg"/>
