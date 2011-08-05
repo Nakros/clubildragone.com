@@ -106,9 +106,9 @@ h2.centrati {
 }
 h3 {
     margin: 0 auto;
+    font-size: 35px;
 }
 h3.centrati { 
-    font-size:35px;
     margin:0 auto 0 430px;
 }
 #maincontainer {
